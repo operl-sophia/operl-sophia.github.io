@@ -3,6 +3,23 @@
 
   
   <url>
+    <loc>http://operl-sophia.github.io/#aboutus</loc>
+  </url>
+  
+  <url>
+    <loc>http://operl-sophia.github.io/#rules</loc>
+  </url>
+  
+  <url>
+    <loc>http://operl-sophia.github.io/#contact</loc>
+  </url>
+  
+  <url>
+    <loc>http://operl-sophia.github.io/#</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://operl-sophia.github.io/#</loc>
     <priority>0</priority>
   </url>

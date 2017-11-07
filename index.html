@@ -36,12 +36,125 @@
             <nav>
               <ul>
                 
+                  <li><a href="#aboutus">About</a></li>
+                
+                  <li><a href="#rules">Rule</a></li>
+                
+                  <li><a href="#contact">contact</a></li>
+                
               </ul>
             </nav>
           </header>
 
         
           <div id="main">
+            
+              <article id="aboutus">
+  <h1>About</h1>
+  
+
+<p>ようこそ！
+OPerlは上智大学生が所属する<code>IT系コミュニティ</code>です．<code>情報工学やITに関わることに興味がある学生</code>たちが集り、色々なことができる場になったらいいなと思っています．基本的な活動はこんなものを考えています．
+<br>
+- 何人かで集まって勉強会へ遊びにいく
+- 仲のいい人とハッカソンに参加してみる
+- 自分達のスキルを試すために競技プログラミングのチームを組んでみる
+- 身についた知識をコミュニティで広める
+- コミュニティで集まって勉強会を開く</p>
+
+<p>などなど、何をしても構いません！ 上智大学のITが好きな人たちが気楽に交流できる場　それがOPerlの目指すコミュニティです．</p>
+
+<h1 id="join-us">Join us</h1>
+
+<p>情報理工学科に入ったけどソフトウェア作れないしよくわかんないけど自分で作りたいというそこのあなたも！
+情報理工学科じゃないからまだよくわかんないけどアプリとか作ってみたいというあなたも！
+興味がある方は是非是非ご参加ください！</p>
+
+<p>OPerlはサークルではなく興味のある人の集りでしかないので、自分が楽しくできることをやれば良いのです！</p>
+
+<hr />
+
+<h1 id="あなたも参加しよう">あなたも参加しよう!</h1>
+
+<p>気になったら<a href="#contact">こちら</a>からの連絡をお待ちしています!</p>
+
+</article>
+
+            
+              <article id="rules">
+  <h1>Rule</h1>
+  
+
+<h2 id="基本的にフリー">基本的にフリー</h2>
+
+<ul>
+<li>入るも自由・出るも自由なコミュニティです。自分のやりたいことをどんどんやりましょう！</li>
+</ul>
+
+<h2 id="他人に迷惑をかけないこと">他人に迷惑をかけないこと</h2>
+
+<ul>
+<li>コミュニティとしてのルールは作りませんが人として最低限のルールは守りましょう。</li>
+</ul>
+
+<h2 id="楽しもう">楽しもう</h2>
+
+<ul>
+<li>時には辛いこともあると思いますがせっかくなので楽しめることをどんどんしましょう!</li>
+</ul>
+
+</article>
+
+            
+              <article id="contact">
+  <h1>Contact</h1>
+  <p><form id="contactform" method="post" action="https://formspree.io/operlsophia@gmail.com">
+    <div class="field half first">
+        <input type="text" name="name" id="name" placeholder="Name"/>
+    </div>
+    <div class="field half">
+        <input type="email" id="email" name="email" placeholder="Email">
+    </div>
+    <div class="field">
+        <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+    </div>
+    <ul class="actions">
+        <li><input type="submit" value="Send message" class="special" /></li>
+        <li><input type="reset" value="Reset" /></li>
+    </ul>
+    <input type="hidden" name="_next" value="?sent#formspree" />
+    <input type="hidden" name="_subject" value="Subject for your mail like new message" />
+    <input type="text" name="_gotcha" style="display:none" />
+</form>
+<span id="contactformsent">Thank you for your message</span></p>
+
+<script>
+$(document).ready(function($) { 
+    $(function(){
+        if (window.location.search == "?sent") {
+            $('#contactform').hide();
+            $('#contactformsent').show();
+        } else {
+            $('#contactformsent').hide();
+        }
+    });
+});
+</script>
+
+<ul class="icons">
+
+	<li><a href="https://twitter.com/OPerl_sophia" class="icon fa-twitter"><span class="label">twitter</span></a></li>
+
+	<li><a href="https://www.facebook.com/OPerl.Sophia" class="icon fa-facebook"><span class="label">facebook</span></a></li>
+
+	<li><a href="#" class="icon fa-instagram"><span class="label">instagram</span></a></li>
+
+	<li><a href="https://github.com/operl-sophia" class="icon fa-github"><span class="label">github</span></a></li>
+
+</ul>
+
+</article>
+
             
           </div>
 
